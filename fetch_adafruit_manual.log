@@ -1,0 +1,422 @@
+2025-03-31 01:28:27,227 - INFO - Đang lấy dữ liệu cho ngày: 2025-03-31
+2025-03-31 01:28:27,372 - INFO - Đã kết nối thành công đến database: postgresql://postgres:1234@localhost:5433/iot_db
+2025-03-31 01:28:27,372 - INFO - Bắt đầu lấy dữ liệu cho ngày 2025-03-31 với tối đa 50 bản ghi cho mỗi feed
+2025-03-31 01:28:28,375 - INFO - Đã lấy được 8 feeds từ Adafruit IO
+2025-03-31 01:28:28,376 - INFO - Tìm thấy 8 feeds từ Adafruit IO
+2025-03-31 01:28:28,376 - INFO - Đang xử lý feed: LIGHT_VARIABLE (key: light-var)
+2025-03-31 01:28:28,376 - INFO - Lấy dữ liệu feed light-var từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 01:28:29,198 - INFO - Đã lấy được 0 điểm dữ liệu từ feed light-var cho ngày 2025-03-31
+2025-03-31 01:28:29,199 - INFO - Không có dữ liệu từ feed light-var
+2025-03-31 01:28:29,199 - INFO - Đã lưu 0/0 bản ghi từ feed LIGHT_VARIABLE
+2025-03-31 01:28:29,704 - INFO - Đang xử lý feed: YOLO_TEMP (key: yolo-temp)
+2025-03-31 01:28:29,705 - INFO - Lấy dữ liệu feed yolo-temp từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 01:28:30,532 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-temp cho ngày 2025-03-31
+2025-03-31 01:28:30,532 - INFO - Không có dữ liệu từ feed yolo-temp
+2025-03-31 01:28:30,533 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_TEMP
+2025-03-31 01:28:31,038 - INFO - Đang xử lý feed: YOLO_LIGHT (key: yolo-light)
+2025-03-31 01:28:31,038 - INFO - Lấy dữ liệu feed yolo-light từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 01:28:31,918 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-light cho ngày 2025-03-31
+2025-03-31 01:28:31,919 - INFO - Không có dữ liệu từ feed yolo-light
+2025-03-31 01:28:31,919 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_LIGHT
+2025-03-31 01:28:32,424 - INFO - Đang xử lý feed: YOLO_FAN (key: yolo-fan)
+2025-03-31 01:28:32,424 - INFO - Lấy dữ liệu feed yolo-fan từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 01:28:33,372 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan cho ngày 2025-03-31
+2025-03-31 01:28:33,373 - INFO - Không có dữ liệu từ feed yolo-fan
+2025-03-31 01:28:33,374 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN
+2025-03-31 01:28:33,877 - INFO - Đang xử lý feed: TEMPERATURE_VARIABLE (key: temperature-var)
+2025-03-31 01:28:33,878 - INFO - Lấy dữ liệu feed temperature-var từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 01:28:34,806 - INFO - Đã lấy được 0 điểm dữ liệu từ feed temperature-var cho ngày 2025-03-31
+2025-03-31 01:28:34,807 - INFO - Không có dữ liệu từ feed temperature-var
+2025-03-31 01:28:34,807 - INFO - Đã lưu 0/0 bản ghi từ feed TEMPERATURE_VARIABLE
+2025-03-31 01:28:35,312 - INFO - Đang xử lý feed: YOLO_FAN_MODE_SELECT (key: yolo-fan-mode-select)
+2025-03-31 01:28:35,313 - INFO - Lấy dữ liệu feed yolo-fan-mode-select từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 01:28:36,239 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-mode-select cho ngày 2025-03-31
+2025-03-31 01:28:36,240 - INFO - Không có dữ liệu từ feed yolo-fan-mode-select
+2025-03-31 01:28:36,241 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_MODE_SELECT
+2025-03-31 01:28:36,745 - INFO - Đang xử lý feed: YOLO_FAN_SPEED (key: yolo-fan-speed)
+2025-03-31 01:28:36,746 - INFO - Lấy dữ liệu feed yolo-fan-speed từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 01:28:37,671 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-speed cho ngày 2025-03-31
+2025-03-31 01:28:37,672 - INFO - Không có dữ liệu từ feed yolo-fan-speed
+2025-03-31 01:28:37,672 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_SPEED
+2025-03-31 01:28:38,177 - INFO - Đang xử lý feed: test (key: test)
+2025-03-31 01:28:38,178 - INFO - Lấy dữ liệu feed test từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 01:28:39,107 - INFO - Đã lấy được 0 điểm dữ liệu từ feed test cho ngày 2025-03-31
+2025-03-31 01:28:39,108 - INFO - Không có dữ liệu từ feed test
+2025-03-31 01:28:39,108 - INFO - Đã lưu 0/0 bản ghi từ feed test
+2025-03-31 01:28:39,609 - INFO - Hoàn thành: Đã lưu tổng cộng 0 bản ghi mới vào database
+2025-03-31 01:29:04,309 - INFO - Đang lấy dữ liệu cho ngày: 2025-03-30
+2025-03-31 01:29:04,376 - INFO - Đã kết nối thành công đến database: postgresql://postgres:1234@localhost:5433/iot_db
+2025-03-31 01:29:04,376 - INFO - Bắt đầu lấy dữ liệu cho ngày 2025-03-30 với tối đa 50 bản ghi cho mỗi feed
+2025-03-31 01:29:05,339 - INFO - Đã lấy được 8 feeds từ Adafruit IO
+2025-03-31 01:29:05,340 - INFO - Tìm thấy 8 feeds từ Adafruit IO
+2025-03-31 01:29:05,340 - INFO - Đang xử lý feed: LIGHT_VARIABLE (key: light-var)
+2025-03-31 01:29:05,340 - INFO - Lấy dữ liệu feed light-var từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:29:06,241 - INFO - Đã lấy được 0 điểm dữ liệu từ feed light-var cho ngày 2025-03-30
+2025-03-31 01:29:06,242 - INFO - Không có dữ liệu từ feed light-var
+2025-03-31 01:29:06,242 - INFO - Đã lưu 0/0 bản ghi từ feed LIGHT_VARIABLE
+2025-03-31 01:29:06,745 - INFO - Đang xử lý feed: YOLO_TEMP (key: yolo-temp)
+2025-03-31 01:29:06,746 - INFO - Lấy dữ liệu feed yolo-temp từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:29:07,680 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-temp cho ngày 2025-03-30
+2025-03-31 01:29:07,680 - INFO - Không có dữ liệu từ feed yolo-temp
+2025-03-31 01:29:07,681 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_TEMP
+2025-03-31 01:29:08,185 - INFO - Đang xử lý feed: YOLO_LIGHT (key: yolo-light)
+2025-03-31 01:29:08,185 - INFO - Lấy dữ liệu feed yolo-light từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:29:09,111 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-light cho ngày 2025-03-30
+2025-03-31 01:29:09,112 - INFO - Không có dữ liệu từ feed yolo-light
+2025-03-31 01:29:09,112 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_LIGHT
+2025-03-31 01:29:09,616 - INFO - Đang xử lý feed: YOLO_FAN (key: yolo-fan)
+2025-03-31 01:29:09,617 - INFO - Lấy dữ liệu feed yolo-fan từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:29:10,544 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan cho ngày 2025-03-30
+2025-03-31 01:29:10,545 - INFO - Không có dữ liệu từ feed yolo-fan
+2025-03-31 01:29:10,545 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN
+2025-03-31 01:29:11,046 - INFO - Đang xử lý feed: TEMPERATURE_VARIABLE (key: temperature-var)
+2025-03-31 01:29:11,046 - INFO - Lấy dữ liệu feed temperature-var từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:29:11,876 - INFO - Đã lấy được 0 điểm dữ liệu từ feed temperature-var cho ngày 2025-03-30
+2025-03-31 01:29:11,877 - INFO - Không có dữ liệu từ feed temperature-var
+2025-03-31 01:29:11,877 - INFO - Đã lưu 0/0 bản ghi từ feed TEMPERATURE_VARIABLE
+2025-03-31 01:29:12,379 - INFO - Đang xử lý feed: YOLO_FAN_MODE_SELECT (key: yolo-fan-mode-select)
+2025-03-31 01:29:12,380 - INFO - Lấy dữ liệu feed yolo-fan-mode-select từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:29:13,309 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-mode-select cho ngày 2025-03-30
+2025-03-31 01:29:13,310 - INFO - Không có dữ liệu từ feed yolo-fan-mode-select
+2025-03-31 01:29:13,310 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_MODE_SELECT
+2025-03-31 01:29:13,813 - INFO - Đang xử lý feed: YOLO_FAN_SPEED (key: yolo-fan-speed)
+2025-03-31 01:29:13,813 - INFO - Lấy dữ liệu feed yolo-fan-speed từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:29:14,743 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-speed cho ngày 2025-03-30
+2025-03-31 01:29:14,744 - INFO - Không có dữ liệu từ feed yolo-fan-speed
+2025-03-31 01:29:14,744 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_SPEED
+2025-03-31 01:29:15,245 - INFO - Đang xử lý feed: test (key: test)
+2025-03-31 01:29:15,246 - INFO - Lấy dữ liệu feed test từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:29:16,175 - INFO - Đã lấy được 9 điểm dữ liệu từ feed test cho ngày 2025-03-30
+2025-03-31 01:29:16,176 - ERROR - Lỗi khi kiểm tra thiết bị: The argument passed to Dialect.has_table() should be a <class 'sqlalchemy.engine.base.Connection'>, got <class 'sqlalchemy.engine.base.Engine'>. Additionally, the Dialect.has_table() method is for internal dialect use only; please use ``inspect(some_engine).has_table(<tablename>>)`` for public API use.
+2025-03-31 01:29:16,199 - INFO - Đã lưu 3 điểm dữ liệu mới vào database từ feed test
+2025-03-31 01:29:16,199 - INFO - Đã lưu 3/9 bản ghi từ feed test
+2025-03-31 01:29:16,704 - INFO - Hoàn thành: Đã lưu tổng cộng 3 bản ghi mới vào database
+2025-03-31 01:32:41,407 - INFO - Đang lấy dữ liệu cho ngày: 2023-03-30
+2025-03-31 01:32:41,480 - INFO - Đã kết nối thành công đến database: postgresql://postgres:1234@localhost:5433/iot_db
+2025-03-31 01:32:41,480 - INFO - Bắt đầu lấy dữ liệu cho ngày 2023-03-30 với tối đa 50 bản ghi cho mỗi feed
+2025-03-31 01:32:42,419 - INFO - Đã lấy được 8 feeds từ Adafruit IO
+2025-03-31 01:32:42,421 - INFO - Tìm thấy 8 feeds từ Adafruit IO
+2025-03-31 01:32:42,421 - INFO - Đang xử lý feed: LIGHT_VARIABLE (key: light-var)
+2025-03-31 01:32:42,421 - INFO - Lấy dữ liệu feed light-var từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:32:43,315 - INFO - Đã lấy được 0 điểm dữ liệu từ feed light-var cho ngày 2023-03-30
+2025-03-31 01:32:43,316 - INFO - Không có dữ liệu từ feed light-var
+2025-03-31 01:32:43,316 - INFO - Đã lưu 0/0 bản ghi từ feed LIGHT_VARIABLE
+2025-03-31 01:32:43,820 - INFO - Đang xử lý feed: YOLO_TEMP (key: yolo-temp)
+2025-03-31 01:32:43,820 - INFO - Lấy dữ liệu feed yolo-temp từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:32:44,773 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-temp cho ngày 2023-03-30
+2025-03-31 01:32:44,774 - INFO - Không có dữ liệu từ feed yolo-temp
+2025-03-31 01:32:44,774 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_TEMP
+2025-03-31 01:32:45,279 - INFO - Đang xử lý feed: YOLO_LIGHT (key: yolo-light)
+2025-03-31 01:32:45,280 - INFO - Lấy dữ liệu feed yolo-light từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:32:46,203 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-light cho ngày 2023-03-30
+2025-03-31 01:32:46,204 - INFO - Không có dữ liệu từ feed yolo-light
+2025-03-31 01:32:46,204 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_LIGHT
+2025-03-31 01:32:46,707 - INFO - Đang xử lý feed: YOLO_FAN (key: yolo-fan)
+2025-03-31 01:32:46,708 - INFO - Lấy dữ liệu feed yolo-fan từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:32:47,636 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan cho ngày 2023-03-30
+2025-03-31 01:32:47,637 - INFO - Không có dữ liệu từ feed yolo-fan
+2025-03-31 01:32:47,637 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN
+2025-03-31 01:32:48,141 - INFO - Đang xử lý feed: TEMPERATURE_VARIABLE (key: temperature-var)
+2025-03-31 01:32:48,141 - INFO - Lấy dữ liệu feed temperature-var từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:32:49,068 - INFO - Đã lấy được 0 điểm dữ liệu từ feed temperature-var cho ngày 2023-03-30
+2025-03-31 01:32:49,069 - INFO - Không có dữ liệu từ feed temperature-var
+2025-03-31 01:32:49,069 - INFO - Đã lưu 0/0 bản ghi từ feed TEMPERATURE_VARIABLE
+2025-03-31 01:32:49,572 - INFO - Đang xử lý feed: YOLO_FAN_MODE_SELECT (key: yolo-fan-mode-select)
+2025-03-31 01:32:49,572 - INFO - Lấy dữ liệu feed yolo-fan-mode-select từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:32:50,503 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-mode-select cho ngày 2023-03-30
+2025-03-31 01:32:50,503 - INFO - Không có dữ liệu từ feed yolo-fan-mode-select
+2025-03-31 01:32:50,503 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_MODE_SELECT
+2025-03-31 01:32:51,008 - INFO - Đang xử lý feed: YOLO_FAN_SPEED (key: yolo-fan-speed)
+2025-03-31 01:32:51,009 - INFO - Lấy dữ liệu feed yolo-fan-speed từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:32:51,935 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-speed cho ngày 2023-03-30
+2025-03-31 01:32:51,935 - INFO - Không có dữ liệu từ feed yolo-fan-speed
+2025-03-31 01:32:51,936 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_SPEED
+2025-03-31 01:32:52,441 - INFO - Đang xử lý feed: test (key: test)
+2025-03-31 01:32:52,441 - INFO - Lấy dữ liệu feed test từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:32:53,371 - INFO - Đã lấy được 0 điểm dữ liệu từ feed test cho ngày 2023-03-30
+2025-03-31 01:32:53,372 - INFO - Không có dữ liệu từ feed test
+2025-03-31 01:32:53,372 - INFO - Đã lưu 0/0 bản ghi từ feed test
+2025-03-31 01:32:53,880 - INFO - Hoàn thành: Đã lưu tổng cộng 0 bản ghi mới vào database
+2025-03-31 01:37:26,489 - INFO - Đang lấy dữ liệu cho ngày: 2023-03-30
+2025-03-31 01:37:26,490 - INFO - Chế độ FORCE RELOAD: Bỏ qua kiểm tra trùng lặp, tải lại tất cả dữ liệu
+2025-03-31 01:37:26,534 - INFO - Đã kết nối thành công đến database: postgresql://postgres:1234@localhost:5433/iot_db
+2025-03-31 01:37:26,535 - INFO - Bắt đầu lấy dữ liệu cho ngày 2023-03-30 với tối đa 50 bản ghi cho mỗi feed
+2025-03-31 01:37:27,383 - INFO - Đã lấy được 8 feeds từ Adafruit IO
+2025-03-31 01:37:27,383 - INFO - Tìm thấy 8 feeds từ Adafruit IO
+2025-03-31 01:37:27,383 - INFO - Đang xử lý feed: LIGHT_VARIABLE (key: light-var)
+2025-03-31 01:37:27,383 - INFO - Lấy dữ liệu feed light-var từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:28,264 - INFO - Đã lấy được 0 điểm dữ liệu từ feed light-var cho ngày 2023-03-30
+2025-03-31 01:37:28,264 - INFO - Không có dữ liệu từ feed light-var
+2025-03-31 01:37:28,264 - INFO - Đã lưu 0/0 bản ghi từ feed LIGHT_VARIABLE
+2025-03-31 01:37:28,769 - INFO - Đang xử lý feed: YOLO_TEMP (key: yolo-temp)
+2025-03-31 01:37:28,770 - INFO - Lấy dữ liệu feed yolo-temp từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:29,753 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-temp cho ngày 2023-03-30
+2025-03-31 01:37:29,753 - INFO - Không có dữ liệu từ feed yolo-temp
+2025-03-31 01:37:29,754 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_TEMP
+2025-03-31 01:37:30,259 - INFO - Đang xử lý feed: YOLO_LIGHT (key: yolo-light)
+2025-03-31 01:37:30,259 - INFO - Lấy dữ liệu feed yolo-light từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:31,187 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-light cho ngày 2023-03-30
+2025-03-31 01:37:31,187 - INFO - Không có dữ liệu từ feed yolo-light
+2025-03-31 01:37:31,187 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_LIGHT
+2025-03-31 01:37:31,692 - INFO - Đang xử lý feed: YOLO_FAN (key: yolo-fan)
+2025-03-31 01:37:31,692 - INFO - Lấy dữ liệu feed yolo-fan từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:32,622 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan cho ngày 2023-03-30
+2025-03-31 01:37:32,623 - INFO - Không có dữ liệu từ feed yolo-fan
+2025-03-31 01:37:32,623 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN
+2025-03-31 01:37:33,128 - INFO - Đang xử lý feed: TEMPERATURE_VARIABLE (key: temperature-var)
+2025-03-31 01:37:33,128 - INFO - Lấy dữ liệu feed temperature-var từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:34,055 - INFO - Đã lấy được 0 điểm dữ liệu từ feed temperature-var cho ngày 2023-03-30
+2025-03-31 01:37:34,056 - INFO - Không có dữ liệu từ feed temperature-var
+2025-03-31 01:37:34,056 - INFO - Đã lưu 0/0 bản ghi từ feed TEMPERATURE_VARIABLE
+2025-03-31 01:37:34,561 - INFO - Đang xử lý feed: YOLO_FAN_MODE_SELECT (key: yolo-fan-mode-select)
+2025-03-31 01:37:34,562 - INFO - Lấy dữ liệu feed yolo-fan-mode-select từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:35,488 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-mode-select cho ngày 2023-03-30
+2025-03-31 01:37:35,489 - INFO - Không có dữ liệu từ feed yolo-fan-mode-select
+2025-03-31 01:37:35,489 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_MODE_SELECT
+2025-03-31 01:37:35,994 - INFO - Đang xử lý feed: YOLO_FAN_SPEED (key: yolo-fan-speed)
+2025-03-31 01:37:35,994 - INFO - Lấy dữ liệu feed yolo-fan-speed từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:36,921 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-speed cho ngày 2023-03-30
+2025-03-31 01:37:36,921 - INFO - Không có dữ liệu từ feed yolo-fan-speed
+2025-03-31 01:37:36,921 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_SPEED
+2025-03-31 01:37:37,427 - INFO - Đang xử lý feed: test (key: test)
+2025-03-31 01:37:37,427 - INFO - Lấy dữ liệu feed test từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:38,355 - INFO - Đã lấy được 0 điểm dữ liệu từ feed test cho ngày 2023-03-30
+2025-03-31 01:37:38,355 - INFO - Không có dữ liệu từ feed test
+2025-03-31 01:37:38,355 - INFO - Đã lưu 0/0 bản ghi từ feed test
+2025-03-31 01:37:38,860 - INFO - Hoàn thành: Đã lưu tổng cộng 0 bản ghi mới vào database
+2025-03-31 01:37:46,990 - INFO - Đang lấy dữ liệu cho ngày: 2025-03-30
+2025-03-31 01:37:46,990 - INFO - Chế độ FORCE RELOAD: Bỏ qua kiểm tra trùng lặp, tải lại tất cả dữ liệu
+2025-03-31 01:37:47,043 - INFO - Đã kết nối thành công đến database: postgresql://postgres:1234@localhost:5433/iot_db
+2025-03-31 01:37:47,043 - INFO - Bắt đầu lấy dữ liệu cho ngày 2025-03-30 với tối đa 50 bản ghi cho mỗi feed
+2025-03-31 01:37:48,083 - INFO - Đã lấy được 8 feeds từ Adafruit IO
+2025-03-31 01:37:48,083 - INFO - Tìm thấy 8 feeds từ Adafruit IO
+2025-03-31 01:37:48,084 - INFO - Đang xử lý feed: LIGHT_VARIABLE (key: light-var)
+2025-03-31 01:37:48,084 - INFO - Lấy dữ liệu feed light-var từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:49,005 - INFO - Đã lấy được 0 điểm dữ liệu từ feed light-var cho ngày 2025-03-30
+2025-03-31 01:37:49,005 - INFO - Không có dữ liệu từ feed light-var
+2025-03-31 01:37:49,006 - INFO - Đã lưu 0/0 bản ghi từ feed LIGHT_VARIABLE
+2025-03-31 01:37:49,511 - INFO - Đang xử lý feed: YOLO_TEMP (key: yolo-temp)
+2025-03-31 01:37:49,511 - INFO - Lấy dữ liệu feed yolo-temp từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:50,336 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-temp cho ngày 2025-03-30
+2025-03-31 01:37:50,336 - INFO - Không có dữ liệu từ feed yolo-temp
+2025-03-31 01:37:50,337 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_TEMP
+2025-03-31 01:37:50,843 - INFO - Đang xử lý feed: YOLO_LIGHT (key: yolo-light)
+2025-03-31 01:37:50,843 - INFO - Lấy dữ liệu feed yolo-light từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:51,755 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-light cho ngày 2025-03-30
+2025-03-31 01:37:51,756 - INFO - Không có dữ liệu từ feed yolo-light
+2025-03-31 01:37:51,756 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_LIGHT
+2025-03-31 01:37:52,261 - INFO - Đang xử lý feed: YOLO_FAN (key: yolo-fan)
+2025-03-31 01:37:52,261 - INFO - Lấy dữ liệu feed yolo-fan từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:53,203 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan cho ngày 2025-03-30
+2025-03-31 01:37:53,203 - INFO - Không có dữ liệu từ feed yolo-fan
+2025-03-31 01:37:53,204 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN
+2025-03-31 01:37:53,709 - INFO - Đang xử lý feed: TEMPERATURE_VARIABLE (key: temperature-var)
+2025-03-31 01:37:53,709 - INFO - Lấy dữ liệu feed temperature-var từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:54,635 - INFO - Đã lấy được 0 điểm dữ liệu từ feed temperature-var cho ngày 2025-03-30
+2025-03-31 01:37:54,635 - INFO - Không có dữ liệu từ feed temperature-var
+2025-03-31 01:37:54,635 - INFO - Đã lưu 0/0 bản ghi từ feed TEMPERATURE_VARIABLE
+2025-03-31 01:37:55,140 - INFO - Đang xử lý feed: YOLO_FAN_MODE_SELECT (key: yolo-fan-mode-select)
+2025-03-31 01:37:55,140 - INFO - Lấy dữ liệu feed yolo-fan-mode-select từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:56,071 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-mode-select cho ngày 2025-03-30
+2025-03-31 01:37:56,072 - INFO - Không có dữ liệu từ feed yolo-fan-mode-select
+2025-03-31 01:37:56,072 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_MODE_SELECT
+2025-03-31 01:37:56,579 - INFO - Đang xử lý feed: YOLO_FAN_SPEED (key: yolo-fan-speed)
+2025-03-31 01:37:56,582 - INFO - Lấy dữ liệu feed yolo-fan-speed từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:57,431 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-speed cho ngày 2025-03-30
+2025-03-31 01:37:57,431 - INFO - Không có dữ liệu từ feed yolo-fan-speed
+2025-03-31 01:37:57,431 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_SPEED
+2025-03-31 01:37:57,936 - INFO - Đang xử lý feed: test (key: test)
+2025-03-31 01:37:57,936 - INFO - Lấy dữ liệu feed test từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 01:37:58,771 - INFO - Đã lấy được 9 điểm dữ liệu từ feed test cho ngày 2025-03-30
+2025-03-31 01:37:58,772 - ERROR - Lỗi khi kiểm tra thiết bị: The argument passed to Dialect.has_table() should be a <class 'sqlalchemy.engine.base.Connection'>, got <class 'sqlalchemy.engine.base.Engine'>. Additionally, the Dialect.has_table() method is for internal dialect use only; please use ``inspect(some_engine).has_table(<tablename>>)`` for public API use.
+2025-03-31 01:37:58,783 - INFO - Đã lưu 9 điểm dữ liệu mới vào database từ feed test
+2025-03-31 01:37:58,783 - INFO - Đã lưu 9/9 bản ghi từ feed test
+2025-03-31 01:37:59,289 - INFO - Hoàn thành: Đã lưu tổng cộng 9 bản ghi mới vào database
+2025-03-31 22:06:43,641 - INFO - Đang lấy dữ liệu cho ngày: 2025-03-31
+2025-03-31 22:06:43,729 - INFO - Đã kết nối thành công đến database: postgresql://postgres:1234@localhost:5433/iot_db
+2025-03-31 22:06:43,729 - INFO - Bắt đầu lấy dữ liệu cho ngày 2025-03-31 với tối đa 50 bản ghi cho mỗi feed
+2025-03-31 22:06:44,765 - INFO - Đã lấy được 8 feeds từ Adafruit IO
+2025-03-31 22:06:44,766 - INFO - Tìm thấy 8 feeds từ Adafruit IO
+2025-03-31 22:06:44,767 - INFO - Đang xử lý feed: LIGHT_VARIABLE (key: light-var)
+2025-03-31 22:06:44,767 - INFO - Lấy dữ liệu feed light-var từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 22:06:45,640 - INFO - Đã lấy được 0 điểm dữ liệu từ feed light-var cho ngày 2025-03-31
+2025-03-31 22:06:45,641 - INFO - Không có dữ liệu từ feed light-var
+2025-03-31 22:06:45,641 - INFO - Đã lưu 0/0 bản ghi từ feed LIGHT_VARIABLE
+2025-03-31 22:06:46,146 - INFO - Đang xử lý feed: YOLO_TEMP (key: yolo-temp)
+2025-03-31 22:06:46,147 - INFO - Lấy dữ liệu feed yolo-temp từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 22:06:46,988 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-temp cho ngày 2025-03-31
+2025-03-31 22:06:46,989 - INFO - Không có dữ liệu từ feed yolo-temp
+2025-03-31 22:06:46,989 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_TEMP
+2025-03-31 22:06:47,492 - INFO - Đang xử lý feed: YOLO_LIGHT (key: yolo-light)
+2025-03-31 22:06:47,492 - INFO - Lấy dữ liệu feed yolo-light từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 22:06:48,393 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-light cho ngày 2025-03-31
+2025-03-31 22:06:48,394 - INFO - Không có dữ liệu từ feed yolo-light
+2025-03-31 22:06:48,394 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_LIGHT
+2025-03-31 22:06:48,899 - INFO - Đang xử lý feed: YOLO_FAN (key: yolo-fan)
+2025-03-31 22:06:48,900 - INFO - Lấy dữ liệu feed yolo-fan từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 22:06:49,851 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan cho ngày 2025-03-31
+2025-03-31 22:06:49,852 - INFO - Không có dữ liệu từ feed yolo-fan
+2025-03-31 22:06:49,852 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN
+2025-03-31 22:06:50,357 - INFO - Đang xử lý feed: TEMPERATURE_VARIABLE (key: temperature-var)
+2025-03-31 22:06:50,358 - INFO - Lấy dữ liệu feed temperature-var từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 22:06:51,283 - INFO - Đã lấy được 0 điểm dữ liệu từ feed temperature-var cho ngày 2025-03-31
+2025-03-31 22:06:51,284 - INFO - Không có dữ liệu từ feed temperature-var
+2025-03-31 22:06:51,284 - INFO - Đã lưu 0/0 bản ghi từ feed TEMPERATURE_VARIABLE
+2025-03-31 22:06:51,789 - INFO - Đang xử lý feed: YOLO_FAN_MODE_SELECT (key: yolo-fan-mode-select)
+2025-03-31 22:06:51,789 - INFO - Lấy dữ liệu feed yolo-fan-mode-select từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 22:06:52,717 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-mode-select cho ngày 2025-03-31
+2025-03-31 22:06:52,718 - INFO - Không có dữ liệu từ feed yolo-fan-mode-select
+2025-03-31 22:06:52,718 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_MODE_SELECT
+2025-03-31 22:06:53,223 - INFO - Đang xử lý feed: YOLO_FAN_SPEED (key: yolo-fan-speed)
+2025-03-31 22:06:53,224 - INFO - Lấy dữ liệu feed yolo-fan-speed từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 22:06:54,123 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-speed cho ngày 2025-03-31
+2025-03-31 22:06:54,124 - INFO - Không có dữ liệu từ feed yolo-fan-speed
+2025-03-31 22:06:54,124 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_SPEED
+2025-03-31 22:06:54,629 - INFO - Đang xử lý feed: test (key: test)
+2025-03-31 22:06:54,630 - INFO - Lấy dữ liệu feed test từ 2025-03-31T00:00:00+00:00 đến 2025-03-31T23:59:59.999999+00:00
+2025-03-31 22:06:55,584 - INFO - Đã lấy được 0 điểm dữ liệu từ feed test cho ngày 2025-03-31
+2025-03-31 22:06:55,585 - INFO - Không có dữ liệu từ feed test
+2025-03-31 22:06:55,585 - INFO - Đã lưu 0/0 bản ghi từ feed test
+2025-03-31 22:06:56,088 - INFO - Hoàn thành: Đã lưu tổng cộng 0 bản ghi mới vào database
+2025-03-31 22:07:05,842 - INFO - Đang lấy dữ liệu cho ngày: 2023-03-30
+2025-03-31 22:07:05,934 - INFO - Đã kết nối thành công đến database: postgresql://postgres:1234@localhost:5433/iot_db
+2025-03-31 22:07:05,935 - INFO - Bắt đầu lấy dữ liệu cho ngày 2023-03-30 với tối đa 50 bản ghi cho mỗi feed
+2025-03-31 22:07:06,810 - INFO - Đã lấy được 8 feeds từ Adafruit IO
+2025-03-31 22:07:06,811 - INFO - Tìm thấy 8 feeds từ Adafruit IO
+2025-03-31 22:07:06,811 - INFO - Đang xử lý feed: LIGHT_VARIABLE (key: light-var)
+2025-03-31 22:07:06,811 - INFO - Lấy dữ liệu feed light-var từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:07,621 - INFO - Đã lấy được 0 điểm dữ liệu từ feed light-var cho ngày 2023-03-30
+2025-03-31 22:07:07,621 - INFO - Không có dữ liệu từ feed light-var
+2025-03-31 22:07:07,622 - INFO - Đã lưu 0/0 bản ghi từ feed LIGHT_VARIABLE
+2025-03-31 22:07:08,122 - INFO - Đang xử lý feed: YOLO_TEMP (key: yolo-temp)
+2025-03-31 22:07:08,123 - INFO - Lấy dữ liệu feed yolo-temp từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:08,966 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-temp cho ngày 2023-03-30
+2025-03-31 22:07:08,966 - INFO - Không có dữ liệu từ feed yolo-temp
+2025-03-31 22:07:08,967 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_TEMP
+2025-03-31 22:07:09,471 - INFO - Đang xử lý feed: YOLO_LIGHT (key: yolo-light)
+2025-03-31 22:07:09,472 - INFO - Lấy dữ liệu feed yolo-light từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:10,337 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-light cho ngày 2023-03-30
+2025-03-31 22:07:10,338 - INFO - Không có dữ liệu từ feed yolo-light
+2025-03-31 22:07:10,338 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_LIGHT
+2025-03-31 22:07:10,843 - INFO - Đang xử lý feed: YOLO_FAN (key: yolo-fan)
+2025-03-31 22:07:10,843 - INFO - Lấy dữ liệu feed yolo-fan từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:11,694 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan cho ngày 2023-03-30
+2025-03-31 22:07:11,695 - INFO - Không có dữ liệu từ feed yolo-fan
+2025-03-31 22:07:11,695 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN
+2025-03-31 22:07:12,200 - INFO - Đang xử lý feed: TEMPERATURE_VARIABLE (key: temperature-var)
+2025-03-31 22:07:12,201 - INFO - Lấy dữ liệu feed temperature-var từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:13,096 - INFO - Đã lấy được 0 điểm dữ liệu từ feed temperature-var cho ngày 2023-03-30
+2025-03-31 22:07:13,097 - INFO - Không có dữ liệu từ feed temperature-var
+2025-03-31 22:07:13,097 - INFO - Đã lưu 0/0 bản ghi từ feed TEMPERATURE_VARIABLE
+2025-03-31 22:07:13,598 - INFO - Đang xử lý feed: YOLO_FAN_MODE_SELECT (key: yolo-fan-mode-select)
+2025-03-31 22:07:13,599 - INFO - Lấy dữ liệu feed yolo-fan-mode-select từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:14,478 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-mode-select cho ngày 2023-03-30
+2025-03-31 22:07:14,479 - INFO - Không có dữ liệu từ feed yolo-fan-mode-select
+2025-03-31 22:07:14,480 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_MODE_SELECT
+2025-03-31 22:07:14,984 - INFO - Đang xử lý feed: YOLO_FAN_SPEED (key: yolo-fan-speed)
+2025-03-31 22:07:14,984 - INFO - Lấy dữ liệu feed yolo-fan-speed từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:16,835 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-speed cho ngày 2023-03-30
+2025-03-31 22:07:16,836 - INFO - Không có dữ liệu từ feed yolo-fan-speed
+2025-03-31 22:07:16,836 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_SPEED
+2025-03-31 22:07:17,339 - INFO - Đang xử lý feed: test (key: test)
+2025-03-31 22:07:17,342 - INFO - Lấy dữ liệu feed test từ 2023-03-30T00:00:00+00:00 đến 2023-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:18,251 - INFO - Đã lấy được 0 điểm dữ liệu từ feed test cho ngày 2023-03-30
+2025-03-31 22:07:18,251 - INFO - Không có dữ liệu từ feed test
+2025-03-31 22:07:18,251 - INFO - Đã lưu 0/0 bản ghi từ feed test
+2025-03-31 22:07:18,755 - INFO - Hoàn thành: Đã lưu tổng cộng 0 bản ghi mới vào database
+2025-03-31 22:07:27,787 - INFO - Đang lấy dữ liệu cho ngày: 2025-03-30
+2025-03-31 22:07:27,787 - INFO - Chế độ FORCE RELOAD: Bỏ qua kiểm tra trùng lặp, tải lại tất cả dữ liệu
+2025-03-31 22:07:27,874 - INFO - Đã kết nối thành công đến database: postgresql://postgres:1234@localhost:5433/iot_db
+2025-03-31 22:07:27,874 - INFO - Bắt đầu lấy dữ liệu cho ngày 2025-03-30 với tối đa 50 bản ghi cho mỗi feed
+2025-03-31 22:07:29,921 - INFO - Đã lấy được 8 feeds từ Adafruit IO
+2025-03-31 22:07:29,922 - INFO - Tìm thấy 8 feeds từ Adafruit IO
+2025-03-31 22:07:29,923 - INFO - Đang xử lý feed: LIGHT_VARIABLE (key: light-var)
+2025-03-31 22:07:29,923 - INFO - Lấy dữ liệu feed light-var từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:30,765 - INFO - Đã lấy được 0 điểm dữ liệu từ feed light-var cho ngày 2025-03-30
+2025-03-31 22:07:30,765 - INFO - Không có dữ liệu từ feed light-var
+2025-03-31 22:07:30,765 - INFO - Đã lưu 0/0 bản ghi từ feed LIGHT_VARIABLE
+2025-03-31 22:07:31,270 - INFO - Đang xử lý feed: YOLO_TEMP (key: yolo-temp)
+2025-03-31 22:07:31,271 - INFO - Lấy dữ liệu feed yolo-temp từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:32,135 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-temp cho ngày 2025-03-30
+2025-03-31 22:07:32,136 - INFO - Không có dữ liệu từ feed yolo-temp
+2025-03-31 22:07:32,136 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_TEMP
+2025-03-31 22:07:32,641 - INFO - Đang xử lý feed: YOLO_LIGHT (key: yolo-light)
+2025-03-31 22:07:32,642 - INFO - Lấy dữ liệu feed yolo-light từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:33,576 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-light cho ngày 2025-03-30
+2025-03-31 22:07:33,577 - INFO - Không có dữ liệu từ feed yolo-light
+2025-03-31 22:07:33,577 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_LIGHT
+2025-03-31 22:07:34,078 - INFO - Đang xử lý feed: YOLO_FAN (key: yolo-fan)
+2025-03-31 22:07:34,078 - INFO - Lấy dữ liệu feed yolo-fan từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:35,051 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan cho ngày 2025-03-30
+2025-03-31 22:07:35,052 - INFO - Không có dữ liệu từ feed yolo-fan
+2025-03-31 22:07:35,052 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN
+2025-03-31 22:07:35,554 - INFO - Đang xử lý feed: TEMPERATURE_VARIABLE (key: temperature-var)
+2025-03-31 22:07:35,555 - INFO - Lấy dữ liệu feed temperature-var từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:36,648 - INFO - Đã lấy được 0 điểm dữ liệu từ feed temperature-var cho ngày 2025-03-30
+2025-03-31 22:07:36,648 - INFO - Không có dữ liệu từ feed temperature-var
+2025-03-31 22:07:36,648 - INFO - Đã lưu 0/0 bản ghi từ feed TEMPERATURE_VARIABLE
+2025-03-31 22:07:37,153 - INFO - Đang xử lý feed: YOLO_FAN_MODE_SELECT (key: yolo-fan-mode-select)
+2025-03-31 22:07:37,153 - INFO - Lấy dữ liệu feed yolo-fan-mode-select từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:38,059 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-mode-select cho ngày 2025-03-30
+2025-03-31 22:07:38,059 - INFO - Không có dữ liệu từ feed yolo-fan-mode-select
+2025-03-31 22:07:38,059 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_MODE_SELECT
+2025-03-31 22:07:38,564 - INFO - Đang xử lý feed: YOLO_FAN_SPEED (key: yolo-fan-speed)
+2025-03-31 22:07:38,565 - INFO - Lấy dữ liệu feed yolo-fan-speed từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:39,412 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-speed cho ngày 2025-03-30
+2025-03-31 22:07:39,413 - INFO - Không có dữ liệu từ feed yolo-fan-speed
+2025-03-31 22:07:39,413 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_SPEED
+2025-03-31 22:07:39,917 - INFO - Đang xử lý feed: test (key: test)
+2025-03-31 22:07:39,917 - INFO - Lấy dữ liệu feed test từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:07:40,821 - INFO - Đã lấy được 9 điểm dữ liệu từ feed test cho ngày 2025-03-30
+2025-03-31 22:07:40,824 - ERROR - Lỗi khi kiểm tra thiết bị: The argument passed to Dialect.has_table() should be a <class 'sqlalchemy.engine.base.Connection'>, got <class 'sqlalchemy.engine.base.Engine'>. Additionally, the Dialect.has_table() method is for internal dialect use only; please use ``inspect(some_engine).has_table(<tablename>>)`` for public API use.
+2025-03-31 22:07:40,948 - INFO - Đã lưu 9 điểm dữ liệu mới vào database từ feed test
+2025-03-31 22:07:40,950 - INFO - Đã lưu 9/9 bản ghi từ feed test
+2025-03-31 22:07:41,454 - INFO - Hoàn thành: Đã lưu tổng cộng 9 bản ghi mới vào database
+2025-03-31 22:30:38,258 - INFO - Đang lấy dữ liệu cho ngày: 2025-03-30
+2025-03-31 22:30:38,258 - INFO - Chế độ FORCE RELOAD: Bỏ qua kiểm tra trùng lặp, tải lại tất cả dữ liệu
+2025-03-31 22:30:38,311 - INFO - Đã kết nối thành công đến database: postgresql://postgres:1234@localhost:5433/iot_db
+2025-03-31 22:30:38,311 - INFO - Bắt đầu lấy dữ liệu cho ngày 2025-03-30 với tối đa 50 bản ghi cho mỗi feed
+2025-03-31 22:30:39,207 - INFO - Đã lấy được 8 feeds từ Adafruit IO
+2025-03-31 22:30:39,207 - INFO - Tìm thấy 8 feeds từ Adafruit IO
+2025-03-31 22:30:39,207 - INFO - Đang xử lý feed: LIGHT_VARIABLE (key: light-var)
+2025-03-31 22:30:39,207 - INFO - Lấy dữ liệu feed light-var từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:30:40,057 - INFO - Đã lấy được 0 điểm dữ liệu từ feed light-var cho ngày 2025-03-30
+2025-03-31 22:30:40,057 - INFO - Không có dữ liệu từ feed light-var
+2025-03-31 22:30:40,058 - INFO - Đã lưu 0/0 bản ghi từ feed LIGHT_VARIABLE
+2025-03-31 22:30:40,560 - INFO - Đang xử lý feed: YOLO_TEMP (key: yolo-temp)
+2025-03-31 22:30:40,561 - INFO - Lấy dữ liệu feed yolo-temp từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:30:41,398 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-temp cho ngày 2025-03-30
+2025-03-31 22:30:41,398 - INFO - Không có dữ liệu từ feed yolo-temp
+2025-03-31 22:30:41,398 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_TEMP
+2025-03-31 22:30:41,899 - INFO - Đang xử lý feed: YOLO_LIGHT (key: yolo-light)
+2025-03-31 22:30:41,899 - INFO - Lấy dữ liệu feed yolo-light từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:30:42,719 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-light cho ngày 2025-03-30
+2025-03-31 22:30:42,719 - INFO - Không có dữ liệu từ feed yolo-light
+2025-03-31 22:30:42,719 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_LIGHT
+2025-03-31 22:30:43,224 - INFO - Đang xử lý feed: YOLO_FAN (key: yolo-fan)
+2025-03-31 22:30:43,224 - INFO - Lấy dữ liệu feed yolo-fan từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:30:44,077 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan cho ngày 2025-03-30
+2025-03-31 22:30:44,078 - INFO - Không có dữ liệu từ feed yolo-fan
+2025-03-31 22:30:44,078 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN
+2025-03-31 22:30:44,584 - INFO - Đang xử lý feed: TEMPERATURE_VARIABLE (key: temperature-var)
+2025-03-31 22:30:44,584 - INFO - Lấy dữ liệu feed temperature-var từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:30:45,443 - INFO - Đã lấy được 0 điểm dữ liệu từ feed temperature-var cho ngày 2025-03-30
+2025-03-31 22:30:45,443 - INFO - Không có dữ liệu từ feed temperature-var
+2025-03-31 22:30:45,443 - INFO - Đã lưu 0/0 bản ghi từ feed TEMPERATURE_VARIABLE
+2025-03-31 22:30:45,945 - INFO - Đang xử lý feed: YOLO_FAN_MODE_SELECT (key: yolo-fan-mode-select)
+2025-03-31 22:30:45,945 - INFO - Lấy dữ liệu feed yolo-fan-mode-select từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:30:46,783 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-mode-select cho ngày 2025-03-30
+2025-03-31 22:30:46,783 - INFO - Không có dữ liệu từ feed yolo-fan-mode-select
+2025-03-31 22:30:46,784 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_MODE_SELECT
+2025-03-31 22:30:47,285 - INFO - Đang xử lý feed: YOLO_FAN_SPEED (key: yolo-fan-speed)
+2025-03-31 22:30:47,285 - INFO - Lấy dữ liệu feed yolo-fan-speed từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:30:48,097 - INFO - Đã lấy được 0 điểm dữ liệu từ feed yolo-fan-speed cho ngày 2025-03-30
+2025-03-31 22:30:48,098 - INFO - Không có dữ liệu từ feed yolo-fan-speed
+2025-03-31 22:30:48,098 - INFO - Đã lưu 0/0 bản ghi từ feed YOLO_FAN_SPEED
+2025-03-31 22:30:48,603 - INFO - Đang xử lý feed: test (key: test)
+2025-03-31 22:30:48,603 - INFO - Lấy dữ liệu feed test từ 2025-03-30T00:00:00+00:00 đến 2025-03-30T23:59:59.999999+00:00
+2025-03-31 22:30:49,450 - INFO - Đã lấy được 9 điểm dữ liệu từ feed test cho ngày 2025-03-30
+2025-03-31 22:30:49,450 - ERROR - Lỗi khi kiểm tra thiết bị: The argument passed to Dialect.has_table() should be a <class 'sqlalchemy.engine.base.Connection'>, got <class 'sqlalchemy.engine.base.Engine'>. Additionally, the Dialect.has_table() method is for internal dialect use only; please use ``inspect(some_engine).has_table(<tablename>>)`` for public API use.
+2025-03-31 22:30:49,459 - INFO - Đã lưu 9 điểm dữ liệu mới vào database từ feed test
+2025-03-31 22:30:49,459 - INFO - Đã lưu 9/9 bản ghi từ feed test
+2025-03-31 22:30:49,964 - INFO - Hoàn thành: Đã lưu tổng cộng 9 bản ghi mới vào database

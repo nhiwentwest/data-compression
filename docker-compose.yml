@@ -1,0 +1,62 @@
+version: '3'
+
+services:
+  # Database PostgreSQL
+  db:
+    image: postgres:14
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: iot_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-db:/docker-entrypoint-initdb.d
+    networks:
+      - iot-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # Ứng dụng chính (FastAPI)
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://postgres:1234@db:5432/iot_db
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - iot-network
+
+  # Ứng dụng AI (Jupyter Notebook với các thư viện ML)
+  ai-notebook:
+    build:
+      context: .
+      dockerfile: Dockerfile.ai
+    volumes:
+      - ./ai:/notebooks
+      - ./data:/data
+    ports:
+      - "8888:8888"
+    environment:
+      - DATABASE_URL=postgresql://ai_user:1234@db:5432/iot_db
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - iot-network
+
+networks:
+  iot-network:
+    driver: bridge
+
+volumes:
+  postgres_data: 

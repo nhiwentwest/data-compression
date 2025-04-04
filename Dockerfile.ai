@@ -1,0 +1,40 @@
+FROM jupyter/scipy-notebook:latest
+
+USER root
+
+# Cài đặt các thư viện Python cần thiết cho AI
+RUN pip install --no-cache-dir \
+    pandas \
+    numpy \
+    scikit-learn \
+    tensorflow \
+    keras \
+    matplotlib \
+    seaborn \
+    psycopg2-binary \
+    sqlalchemy \
+    python-dotenv \
+    requests \
+    pydantic \
+    apscheduler
+
+# Tạo thư mục cho dữ liệu và notebooks
+RUN mkdir -p /data /notebooks
+
+# Sao chép script giải nén dữ liệu
+COPY decompress_data_for_ai.py /notebooks/
+COPY README_DATA_DECOMPRESSION.md /notebooks/
+
+# Thiết lập quyền
+RUN chown -R jovyan:users /data /notebooks
+
+USER jovyan
+
+# Thiết lập thư mục làm việc
+WORKDIR /notebooks
+
+# Làm cho script có thể thực thi
+RUN chmod +x decompress_data_for_ai.py
+
+# Chạy Jupyter Notebook
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"] 
